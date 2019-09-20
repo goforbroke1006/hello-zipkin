@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  zipkin:
+    image: openzipkin/zipkin:2.16
+    ports:
+      - '9411:9411'
